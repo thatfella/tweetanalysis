@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:jdbc="http://www.springframework.org/schema/c"
-       xsi:schemaLocation="
-       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
-       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="thatfella.analyze"/>
+
+<context:component-scan base-package="thatfella.analyze"/>
+    <mvc:annotation-driven/>
     <context:annotation-config/>
-    <!--Пытаюсь прикрепить ресурсы - рисунки-->
 
 
-    <bean name="simpan" class="thatfella.analyze.analyzers.AnalyzerOfTweets"/>
-    <bean name="drawer" class="thatfella.analyze.analyzers.PieCooker"/>
+
+    <bean class="thatfella.analyze.analyzers.AnalyzerOfTweets" name="simpan" >
+        <property name="cKey" value="B2XIyVCvS2vN4qmev0qpHvwsh"/>
+        <property name="cSecret" value="KgfuK5IOowWwGiVhfSvWjScll0obKmlAX8sMcxB8Xt7lJf1mos"/>
+        <property name="aToken" value="800966895235137536-NIYhcVxpYo8A5UmeuIDwaWWKrEsOnlW"/>
+        <property name="aTokenSecret" value="4CjmK3rU45eTmaH0nmsVesdbDbi1evyqWaGtr346L3yKR"/>
+    </bean>
+
+    <bean name="drawer" class="thatfella.analyze.analyzers.PieCooker">
+       <property name="width"  value="700"/>
+        <property name="height" value="480"/>
+</bean>
 
 
+   <bean name="dict" class="thatfella.analyze.analyzers.DictionaryPrepare">
+       <property name="positiveFileDirection"  value="E://TwitAnalyze//src//main//resources//positive.txt"/>
+       <property name="negativeFileDirection"  value="E://TwitAnalyze//src//main//resources//negative.txt"/>
+   </bean>
+
+   <!--Database bean-->
+    <bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/tweetanls"/>
+        <property name="username" value="root"/>
+        <property name="password" value="admin"/>
+
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <bean id="edao" class="thatfella.analyze.analyzers.DBConnect">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
 </beans>

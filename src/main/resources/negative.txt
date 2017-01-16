@@ -2,15 +2,15 @@
  agressive 
  agressor 
  anger 
- angry  
+ angry 
  anxiety 
  anxious 
  arrogant 
  awful 
  bad 
- betray
+ betray 
  betrayal 
- betrated  
+ betrated 
  catastrophy 
  crap 
  crash 
@@ -50,9 +50,9 @@
  killer 
  knife 
  lazy 
- loss
+ loss 
  menace 
- murder
+ murder 
  negative 
  ominous 
  poison 
@@ -63,19 +63,19 @@
  racism 
  rainy 
  reckless 
- ruin
- shit  
+ ruin 
+ shit 
  slave 
  slavery 
  slaves 
  spoil 
- spoiled
- spoiler  
+ spoiled 
+ spoiler 
  stubborn 
  stupid 
  thirsty 
  unluck 
- victim
+ victim 
  villain 
  violence 
  violent 

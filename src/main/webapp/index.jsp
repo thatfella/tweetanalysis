@@ -10,6 +10,7 @@
         Input yo hashtag here:<input type="text" name="hashtag"/><br>
         Input # of tweets here:<input type="text" name="numberOfTweetsPerPage"/><br>
         <input type="submit">
+        <br>
     </form>
 </div>
 </body>

@@ -3,7 +3,7 @@
  amazing 
  awesome 
  beautiful 
- beloved
+ beloved 
  benefit 
  benefits 
  brotherhood 
@@ -12,8 +12,8 @@
  childhood 
  classy 
  clean 
- clever
- complete
+ clever 
+ complete 
  dream 
  event 
  extraordinary 
@@ -30,11 +30,11 @@
  intelligent 
  joke 
  know 
- knowledge
+ knowledge 
  learn 
- like
+ like 
  love 
- lovely
+ lovely 
  lucky 
  magnificent 
  marvelous 
@@ -56,7 +56,7 @@
  support 
  super 
  sweetheart 
- sympathy
+ sympathy 
  teacher 
  trust 
  useful 
@@ -64,8 +64,8 @@
  wealth 
  well 
  win 
- wins
- winner
+ wins 
+ winner 
  wise 
  wonderful 
  xmas 

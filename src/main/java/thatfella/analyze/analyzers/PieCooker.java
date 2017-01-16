@@ -16,6 +16,8 @@ import java.io.IOException;
  */
 public class PieCooker {
 
+    private int width;
+    private int height;
 
     public PieDataset createDataForPie(String pt, String nt, String mt, int ps, int ns, int ms) {
         DefaultPieDataset pds = new DefaultPieDataset();
@@ -36,9 +38,23 @@ public class PieCooker {
                 true,
                 true);
 
-        int width = 700; //Width of the image
-        int height = 480; // Height of the image
         return chart;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getHeight() {
+        return height;
     }
 }
 

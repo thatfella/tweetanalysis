@@ -11,44 +11,46 @@ import java.util.List;
  * Created by ESALE on 29.11.2016.
  */
 public class DictionaryPrepare {
-    BufferedReader pbr;
-    FileReader pfr;
-    BufferedReader nbr;
-    FileReader nfr;
 
-    public List<String> gotpos = new ArrayList<String>();
-    public List<String> gotneg = new ArrayList<String>();
+    private String positiveFileDirection;
+    private String negativeFileDirection;
+    String pd = getPositiveFileDirection();
 
-
-    public List preppos(String posFileDirection) throws IOException {
-        try {
-            pfr = new FileReader(posFileDirection);//"E://TwitAnalyze//src//main//resources//positive.txt"
-
-            pbr = new BufferedReader(pfr);
-            String temp;
-            while ((temp = pbr.readLine()) != null) {
-                gotpos.add(temp);
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return gotpos;
+    public List getPositiveDict(String positiveFileDirection) throws IOException {
+        return loadDictionary(getPositiveFileDirection());
     }
 
+    public List getNegativeDict(String negativeFileDirection) throws IOException {
+        return loadDictionary(getNegativeFileDirection());
+    }
 
-    public List prepneg(String negFileDirection) throws IOException {
+    private List<String> loadDictionary(String fileDirection) throws IOException {
+        List<String> dict = new ArrayList<String>();
         try {
-            nfr = new FileReader(negFileDirection);
-
-            nbr = new BufferedReader(nfr);
-            String tempneg;
-            while ((tempneg = nbr.readLine()) != null) {
-                gotneg.add(tempneg);
+            BufferedReader br = new BufferedReader(new FileReader(fileDirection));
+            String temp;
+            while ((temp = br.readLine()) != null) {
+                dict.add(temp);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        return gotneg
-                ;
+        return dict;
+    }
+
+    public void setPositiveFileDirection(String positiveFileDirection) {
+        this.positiveFileDirection = positiveFileDirection;
+    }
+
+    public String getPositiveFileDirection() {
+        return positiveFileDirection;
+    }
+
+    public void setNegativeFileDirection(String negativeFileDirection) {
+        this.negativeFileDirection = negativeFileDirection;
+    }
+
+    public String getNegativeFileDirection() {
+        return negativeFileDirection;
     }
 }
