@@ -1,0 +1,724 @@
+2017-01-17 00:04:06 INFO  DispatcherServlet:489 - FrameworkServlet 'applicationContext': initialization started
+2017-01-17 00:04:06 INFO  XmlWebApplicationContext:581 - Refreshing WebApplicationContext for namespace 'applicationContext-servlet': startup date [Tue Jan 17 00:04:06 MSK 2017]; root of context hierarchy
+2017-01-17 00:04:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-servlet.xml]
+2017-01-17 00:04:07 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-01-17 00:04:08 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/ht || /ht/],methods=[GET]}" onto public java.lang.String thatfella.analyze.MyController.Result(java.lang.String,int,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2017-01-17 00:04:08 INFO  RequestMappingHandlerMapping:543 - Mapped "{[/piechart],methods=[GET]}" onto public void thatfella.analyze.MyController.drawPieChart(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-01-17 00:04:08 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'applicationContext-servlet': startup date [Tue Jan 17 00:04:06 MSK 2017]; root of context hierarchy
+2017-01-17 00:04:08 INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'applicationContext-servlet': startup date [Tue Jan 17 00:04:06 MSK 2017]; root of context hierarchy
+2017-01-17 00:04:08 INFO  DispatcherServlet:508 - FrameworkServlet 'applicationContext': initialization completed in 1877 ms
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Alternative Media 
+ TEXT: #World #News  Male employees have a really hard time with performance reviews, study finds https://t.co/euznJX8QRK… https://t.co/zwgWPc3Cvc 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:05:12 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :WorldNet Intl 
+ TEXT: With offices strategically placed around the #world, we always have a handle on your shipment. https://t.co/9iKHWxatZE #international 
+ COUNTRY New York  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:05:12 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Òîëÿ Ñîêîëîâ 
+ TEXT: Ïðîêóðàòóðà Äàãåñòàíà ïîëó÷èëà àíîíèìíûå ïîêàçàíèÿ æåðòâ æåíñêîãî îáðåçàíèÿ - #news #world https://t.co/s2BTheoIwN 
+ COUNTRY Ukraine 
+ LANGUAGE: ru 
+ DATE OF POST: Tue Jan 17 00:05:11 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Jacki Mason singer 
+ TEXT: RT @cosmicfirepeace: Simple folks #Putin is the #Richest man in #World which is why #Trump is groveling at his feet #OILgas #Profit into po… 
+ COUNTRY Greenfields, Perth (WA) 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:05:09 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Frederick Slayton 
+ TEXT: RT @coinabs: I #STAND WITH  #NETANYAHU + #TRUMP + #CIVILISED WORLD
+
+AGAINST #ISLAMIC, #PALESTINIAN, #ISIS, #HEZBOLLAH, #IRANIAN + #WORLD TE… 
+ COUNTRY Highland Park Illinois 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:58 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Brett Martin 
+ TEXT: RT @HuijsmansTim: RT 
+Here's to the people who saved an #animal in #2016 — because the #world could use more #heroes. https://t.co/uw9NhlqV… 
+ COUNTRY CT 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:42 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :md totol 
+ TEXT: #Indian Politician Wins Right to Use Bicycle as Election Symbol
+#World #Politics and Government #News #Headline
+https://t.co/yBGG1ounZF 
+ COUNTRY Indonesia 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:24 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :md totol 
+ TEXT: #Gunman Kills 5 at International Music Festival in Mexico
+#World #Murders, Attempted Murders and Homicides, Stampe… https://t.co/w6klhYN1yz 
+ COUNTRY Indonesia 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:23 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Johny Woodman 
+ TEXT: RT @coinabs: I #STAND WITH  #NETANYAHU + #TRUMP + #CIVILISED WORLD
+
+AGAINST #ISLAMIC, #PALESTINIAN, #ISIS, #HEZBOLLAH, #IRANIAN + #WORLD TE… 
+ COUNTRY Prague, Czech republic 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:19 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :The Hungry Mongoose 
+ TEXT: RT @HuijsmansTim: RT
+These affectionate, playful pit bulls are showing the #world just how sweet pitties can be. https://t.co/giXS9sC4ht 
+ COUNTRY Capital Region, Denmark 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:19 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Retweets? 
+ TEXT: #handypixel RT HuijsmansTim: RT 
+Here's to the people who saved an #animal in #2016 — because the #world could use… https://t.co/3HxkJrcEFB 
+ COUNTRY USA 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:17 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :songcollect.download 
+ TEXT: "#Play and #write #music the way you want the #world to be." #Wayne #Shorter @WayneShorterNYC #jazz #today #nyc https://t.co/KbmPseb8fu 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:04:03 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Paul Jeronovic 
+ TEXT: RT @HuijsmansTim: RT
+These affectionate, playful pit bulls are showing the #world just how sweet pitties can be. https://t.co/giXS9sC4ht 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:41 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Alternative Media 
+ TEXT: #World #News  Justin Bieber's selfies (and bangs) are back https://t.co/1AQkiRfZNX  #StopRussianAggression https://t.co/7sF2WJ57Um 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:41 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :All NATIONS 
+ TEXT: And one day, if justice does not out live him, he will be one of those IMPRISONED for MURDER. @parveen_comms #genocide #UK & #world-wide 
+ COUNTRY RC 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:27 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Currentnewspage 
+ TEXT: #Breakingnews Trump is following the authoritarian playbook https://t.co/rQKXM39byy  #world #breaking https://t.co/U2gcMfFnlo 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:25 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Alice Carter 
+ TEXT: #world longest pussy sexiest naked women on the internet https://t.co/9hzFQZeZDP 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:20 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Currentnewspage 
+ TEXT: #Breakingnews Obamacare saved my life. What now? https://t.co/MvaTyQhBMg  #world #breaking https://t.co/wg08p8msGQ 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:13 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :?Denise? 
+ TEXT: #handypixel RT HuijsmansTim: RT 
+Here's to the people who saved an #animal in #2016 — because the #world could use… https://t.co/XzxGpySdZe 
+ COUNTRY New York, USA 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:03:13 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Houston Franciscans 
+ TEXT: O #Lord we praise You and #adore You, because by Your #Holy #Cross, You have #redeemed the #world! 
+ COUNTRY Houston, TX 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:02:47 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Ryan Patel 
+ TEXT: The @LAZoo knows we live in a #global #marketplace - #World #Unity https://t.co/jEBfrAMFTu 
+ COUNTRY Los Angeles, CA 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:02:35 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :masoudmadanchi 
+ TEXT: ??????? ????: ????? ?????? ????? ??????? ????????? ??????? ?????? ?? ???? ????? https://t.co/WfUoaF2ROA #WORLD  #FRANCE  #USA  #NEWS #IRAN 
+ COUNTRY Paris, France 
+ LANGUAGE: ar 
+ DATE OF POST: Tue Jan 17 00:02:32 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Cheryl Hall 
+ TEXT: #world sex tour 10 free bi sexual dating sites https://t.co/ZKTKEjINNz 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:02:29 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Queen of the World 
+ TEXT: Devil, my father #London #WhiteStarLine #DianaSpencer #World #Titanic #England https://t.co/f9zUjnsVxE 
+ COUNTRY Siberia  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:02:23 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Leda Maria Siedler 
+ TEXT: RT @LeoAuteur: Les merveilles de la nature et du monde en 15 clich?s du Sony #World #Photography #Awards - https://t.co/soWxnJbMNU https://… 
+ COUNTRY Porto Alegre_RS Brasil 
+ LANGUAGE: fr 
+ DATE OF POST: Tue Jan 17 00:02:22 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Where My Story Begin 
+ TEXT: UTAH GIRL IN A GERMANY WORLD
+https://t.co/MpDwonuYRR
+#UTAH
+#GERMANY
+#WORLD
+#MLKNow2017
+#SWEATSHIRT
+#TSHIRT https://t.co/gk9zo1a3p4 
+ COUNTRY United States 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:02:03 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Globecom News 
+ TEXT: [#World] Indian Politician Wins Right to Use Bicycle as Election Symbol https://t.co/6xatZmwtsM 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:01:27 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Tim Huijsmans 
+ TEXT: RT
+These affectionate, playful pit bulls are showing the #world just how sweet pitties can be. https://t.co/giXS9sC4ht 
+ COUNTRY Nederland 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:01:08 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Lampshade 
+ TEXT: @Reuters It would be fair to come up with an estimate of how many #jobs  they create in the #World. If they don't create them who does? 
+ COUNTRY Canada 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:01:03 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :ML Fashion Group 
+ TEXT: RT @InkkasWorldwear: Happy #FridayThe13th! The #world is in your hands. #SHOP #shoes at https://t.co/l3uOOaFhRb ??? https://t.co/LqHhK8Fxzx 
+ COUNTRY Manhattan, NY 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:00:59 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Stella Ath?na?s 
+ TEXT: RT @Anujheavens4u: The #World is lucky to have a person like me. ?? lol 
+ COUNTRY France 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:00:58 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Andrew Adams 
+ TEXT: #WORLD #NEWS #UPDATE :
+
+U.S PRESIDENT-ELECT #DONALD #TRUMP WILL PROPOSE OFFERING TO END… https://t.co/cYjOBCvZm4 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:00:32 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :BamBino 
+ TEXT: #GoStoopid on em when the #World given u problems #GoStoopid #Rap #TuneFien #WeTheNewSound #ItsACircusUpThere #Twerk
+https://t.co/6hoGH9j8b3 
+ COUNTRY ATL 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:00:20 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :harleyicelee 
+ TEXT: #buonanotte #harleyicelee #world #people #E... #bella https://t.co/UBreUGiWFV 
+ COUNTRY Cerda 
+ LANGUAGE: und 
+ DATE OF POST: Tue Jan 17 00:00:05 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Nate Burgos 
+ TEXT: “A #writer is someone who pays attention to the #world.” Susan Sontag, Author, Activist, born January 16, 1933 #Writing 
+ COUNTRY Design is a moveable feast 
+ LANGUAGE: en 
+ DATE OF POST: Tue Jan 17 00:00:02 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Beautyandcalm 
+ TEXT: Capela de S?o Louren?o - Tomar - Portugal 
+
+#Beautiful #World
+https://t.co/IHysVLnJbE
+
+https://t.co/yxvdCViSBS https://t.co/7PfOHyn7M4 
+ COUNTRY United Kingdom 
+ LANGUAGE: pt 
+ DATE OF POST: Tue Jan 17 00:00:00 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Vic Steiner 
+ TEXT: RT @naturefineart: The #world is changed by your example, not by your opinion. - Paulo Coelho 
+ COUNTRY Europa Bavaria 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:59:29 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Savi Travels 
+ TEXT: #Tour #Travel plan 2 #top #destinations in #world https://t.co/qVrsBcY6jn call +919314388288 #vacation #holidays #… https://t.co/bJwtEB6x7b 
+ COUNTRY Jaipur, India 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:59:15 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Sohail Nakhooda 
+ TEXT: RT @InsideIraq: Look at this photo & see how ugly the #world is !!! #YemenCrisis https://t.co/ZdkNZhMOlV 
+ COUNTRY Abu Dhabi, UAE 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:59:10 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :SWAT 4 CEDAW Ontario 
+ TEXT: To @csa_asc @NASA Why has the #World not received any plausible explanations for your failures to pursue manned… https://t.co/UokyQuWZPN 
+ COUNTRY Scarborough Village, Toronto 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:59:01 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Linda 
+ TEXT: RT @naturefineart: The #world is changed by your example, not by your opinion. - Paulo Coelho 
+ COUNTRY Michigan, USA 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:58:29 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Elaine sampson 
+ TEXT: RT @cosmicfirepeace: Simple folks #Putin is the #Richest man in #World which is why #Trump is groveling at his feet #OILgas #Profit into po… 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:58:28 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :?????? ?? 
+ TEXT: The greatest #goals that can be achieved in this #world will remain small if they are not linked to the vast world of the #Hereafter 
+ COUNTRY ???? ?????? 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:57:05 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :AfricanAmericans DP 
+ TEXT: Four-Year-Old Gets an Epic Gig In Washington #world https://t.co/1aPia8M1rx 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:57:04 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Shabib Rizvi 
+ TEXT: RT @InsideIraq: Look at this photo & see how ugly the #world is !!! #YemenCrisis https://t.co/ZdkNZhMOlV 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:56:53 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Lindsey 
+ TEXT: Koly needs your Help! https://t.co/bj5Cb0h76Z
+I hate doing this but my #bestfriend really needs #help she's the #best in the #world 
+ COUNTRY Utah 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:56:36 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Mubdi'Chud'Choudhury 
+ TEXT: RT @naturefineart: The #world is changed by your example, not by your opinion. - Paulo Coelho 
+ COUNTRY  ~London, Avalon & World Wide~ 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:56:28 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Josephine Israel 
+ TEXT: #fact for #women in the #world 
+No one really knows what we go through https://t.co/Fz6dmmcgJQ 
+ COUNTRY Lagos 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:56:28 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Chess DP 
+ TEXT: Women?s World Championship 2017 ? Pairings #world https://t.co/S26osK2IcK 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:56:05 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :All NATIONS 
+ TEXT: Thus #Panorama #BBC, you are the enemy of Peace Who is Jesus Christ OUR LORD. 
+#BRexit #UK #England - #world #Peace 
+ COUNTRY RC 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:55:54 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Fine Living 
+ TEXT: Most Beautiful Palaces in the World https://t.co/Pw02iIl1OV #Beautiful #Places #World https://t.co/RpdLmM0f47 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:55:41 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Love your soul 
+ TEXT: RT @JaanaUolamo: The #world hungers for #love ? https://t.co/91zoxjlPpp 
+ COUNTRY pure michigan ? 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:55:27 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Juergen Roth 
+ TEXT: The #world is changed by your example, not by your opinion. - Paulo Coelho 
+ COUNTRY Massachusetts, USA 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:55:13 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: Iran: Protest gatherings in Yazd, Orumiah and Kangavar https://t.co/4q7s1re1r6 #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: in 
+ DATE OF POST: Mon Jan 16 23:54:36 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Gladys Scott 
+ TEXT: having sex with your friend #world very very porn sexy pics https://t.co/lHjcyWnCYO 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:54:34 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :M?rcio Moreira 
+ TEXT: #boanoite #goodnight #corridaderua #sorocaba #saopaulo #br #brasil #brazil #work #world #w… https://t.co/XjrCZdtxFS 
+ COUNTRY  
+ LANGUAGE: und 
+ DATE OF POST: Mon Jan 16 23:54:21 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Alternative Media 
+ TEXT: #world #news  Wife Of Orlando Shooter Arrested https://t.co/qU1HCqMgq7  #StopRussianAggression #FreeKarpiuk https://t.co/Ms6dltY13E 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:54:14 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Currentnewspage 
+ TEXT: #Breakingnews Last man on the moon dies https://t.co/TrZ92DmFod  #world #breaking https://t.co/Q2GQ3idwoM 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:54:13 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Polo Se@t@n X 
+ TEXT: RT @TheInnerAdam: Lu Jian Jun - In the palace (2005). #art #painting #symbolism #World #creativity https://t.co/gPSJSK9JRt 
+ COUNTRY #Genova #Liguria #Italy 
+ LANGUAGE: in 
+ DATE OF POST: Mon Jan 16 23:54:05 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :FraternaFibonacci 
+ TEXT: RT @TheInnerAdam: Lu Jian Jun - In the palace (2005). #art #painting #symbolism #World #creativity https://t.co/gPSJSK9JRt 
+ COUNTRY Seattle, WA 
+ LANGUAGE: in 
+ DATE OF POST: Mon Jan 16 23:53:54 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: Iran: Execution of two prisoners in #Kerman and Hamadan https://t.co/FtA6qwStlE #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:53:33 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :InsideIraq 
+ TEXT: Look at this photo & see how ugly the #world is !!! #YemenCrisis https://t.co/ZdkNZhMOlV 
+ COUNTRY United Kingdom 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:53:28 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Kaizen-Car 
+ TEXT: @_R_START  El mundo es de qui?n se la juega. Cuando te amas. ?te adue?as del mundo! #mundo #world #motivaci?n #love  https://t.co/RLBgzZuMhM 
+ COUNTRY M?xico 
+ LANGUAGE: es 
+ DATE OF POST: Mon Jan 16 23:53:03 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Bruno B. #E4E #LPE 
+ TEXT: RT @rafshmatko: Talk about #Trump, #art and the #world... #TV #TrumpTrain #artnews #worldartnews https://t.co/9sRrtfqp1i 
+ COUNTRY Nantes Britanny France Europe 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:39 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Davide 
+ TEXT: 30 DAY WRITING CHALLENGE. -DAY 1- https://t.co/gs6xCjsCKJ #challenge #friends #family #blog #wordpress #world #life #social 
+ COUNTRY Italy  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:38 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Javed Bhatti 
+ TEXT: RT @MKA_ChicagoSW: As we remember #DrMartinLutherKingJr today! We wish #Peace & #Solidarity around the #World #MLKDAY #Chicago @MuslimYouth… 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:38 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: Iran: Suleimani’s deputy says 'Our front lines are Mosul, Lebanon, Aleppo and Syria.' https://t.co/zPk42ze5N4 #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:33 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Salute 
+ TEXT: RT @abdullahamarna: A message to the whole #world. #Gaza #WestBank #FreePalestine https://t.co/VpGrQHLoRB 
+ COUNTRY ??????, ????? 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:22 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :MiroirVd 
+ TEXT: #BBC #news #world Gene Cernan, last man to walk on Moon, dies aged 82 https://t.co/dnrD6fwpPK 
+ COUNTRY le Monde 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:12 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Recycling DP 
+ TEXT: The Artist #world https://t.co/N4XMhZIsHp 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:52:10 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Angela Diaz 
+ TEXT: #world of porncraft gif girls sweden nude https://t.co/sw7a5vper1 
+ COUNTRY California, USA 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:40 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Zulfiqar Doltani 
+ TEXT: Looted: Six shops robbed in Malir https://t.co/HkXrVaMSEz via @ZDoltani #World #Coas https://t.co/22xldNpWqj 
+ COUNTRY Pakistan 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:33 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: #Iran in Yemen: See no evil, hear no evil https://t.co/2saultBtNC #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:27 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Zulfiqar Doltani 
+ TEXT: Post-detention: Sathi Ishaq, Arif Haider released, claim pa... https://t.co/x6dLsPWhD3 via @ZDoltani #Coas #World https://t.co/ZDT3GVZgZz 
+ COUNTRY Pakistan 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:13 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Chambers Rossana 
+ TEXT: Big Pharma Pockets $711 Billion in Profits by Price-Gouging Taxpayers and Seniors #world #pharma https://t.co/HDbqvQDtbU 
+ COUNTRY  
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:11 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Portal Cwb 
+ TEXT: The #King of #Fighters: #World a #caminho dos #mobiles https://t.co/9rVadUvmPt #games 
+ COUNTRY Curitiba - Paran? - Brasil 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:51:06 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Alyssa ? ? 
+ TEXT: I am entirely yours, that if I might have all the world given me, I could not be happy but in your love. #Love #quotes #happiness #world 
+ COUNTRY Grand Haven, MI 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:50:54 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: Drone buzzing over Iranian capital shakes the regime https://t.co/JoNKDIpXre #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:50:24 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :BethyWorld 
+ TEXT: "Africans are fighting #media poverty-porn by tweeting #beautiful images of their..." #travel #world #photography https://t.co/1NcJWh00CT 
+ COUNTRY The Globe 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:50:17 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Gina Whitt 
+ TEXT: RT @rua_royal: Let's #smile for a great #week ahead! We #rock our #world! ???
+#music #photoshoot #newrelease #newalbum #pop #amazon #itunes… 
+ COUNTRY Alabama, USA 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:50:11 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Hassan javidan 
+ TEXT: UN: #Iran removes sensitive nuclear equipment from site https://t.co/ihKP3cbILC #world #Woman #egypt 
+ COUNTRY City of London, England 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:49:25 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :The Virtuous Woman 
+ TEXT: RT @dearpurplewoman: rest on what the #Word says, not the #world - @dearpurplewoman 
+#DearPurpleWoman #DPW #PurposeDrivenLife #Christ https… 
+ COUNTRY Lagos, Nigeria 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:49:24 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Janet Wilson 
+ TEXT: RT @TheInnerAdam: Lu Jian Jun - In the palace (2005). #art #painting #symbolism #World #creativity https://t.co/gPSJSK9JRt 
+ COUNTRY London, England 
+ LANGUAGE: in 
+ DATE OF POST: Mon Jan 16 23:49:17 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Pekka54 
+ TEXT: The #world accordion to #Trump - a must see:
+ https://t.co/ZD6VJPLN5e 
+ COUNTRY Portland, Maine 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:48:56 MSK 2017 
+ 
+
+2017-01-17 00:04:10 INFO  AnalyzerOfTweets:122 - TWEETSTARTSHERE# 
+ USER :Diana Mary Sharpton 
+ TEXT: RT @GrandCanyonPics: We aim above the mark to hit the mark. ~ Ralph Waldo Emerson  #quotes #Optimism #Wisdom #World #Energy 
+ COUNTRY Richardson, TX 
+ LANGUAGE: en 
+ DATE OF POST: Mon Jan 16 23:48:32 MSK 2017 
+ 
+
+2017-01-17 00:04:21 INFO  XmlWebApplicationContext:982 - Closing WebApplicationContext for namespace 'applicationContext-servlet': startup date [Tue Jan 17 00:04:06 MSK 2017]; root of context hierarchy
