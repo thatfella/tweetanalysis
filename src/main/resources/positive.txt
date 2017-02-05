@@ -1,72 +1,72 @@
- achieve 
- achievement 
- amazing 
- awesome 
- beautiful 
- beloved 
- benefit 
- benefits 
- brotherhood 
- brave 
- charming 
- childhood 
- classy 
- clean 
- clever 
- complete 
- dream 
- event 
- extraordinary 
- friend 
- friends 
- friendship 
- gentleman 
- good 
- grateful 
- great 
- guest 
- help 
- hospitable 
- intelligent 
- joke 
- know 
- knowledge 
- learn 
- like 
- love 
- lovely 
- lucky 
- magnificent 
- marvelous 
- mild 
- nature 
- nice 
- original 
- passion 
- peace 
- picturesque 
- positive 
- pretty 
- prosperous 
- quiet 
- respect 
- rich 
- share 
- strong 
- support 
- super 
- sweetheart 
- sympathy 
- teacher 
- trust 
- useful 
- virtue 
- wealth 
- well 
- win 
- wins 
- winner 
- wise 
- wonderful 
- xmas 
- young 
+achieve
+achievement
+amazing
+awesome
+beautiful
+beloved
+benefit
+benefits
+brotherhood
+brave
+charming
+childhood
+classy
+clean
+clever
+complete
+dream
+event
+extraordinary
+friend
+friends
+friendship
+gentleman
+good
+grateful
+great
+guest
+help
+hospitable
+intelligent
+joke
+know
+knowledge
+learn
+like
+love
+lovely
+lucky
+magnificent
+marvelous
+mild
+nature
+nice
+original
+passion
+peace
+picturesque
+positive
+pretty
+prosperous
+quiet
+respect
+rich
+share
+strong
+support
+super
+sweetheart
+sympathy
+teacher
+trust
+useful
+virtue
+wealth
+well
+win
+wins
+winner
+wise
+wonderful
+xmas
+young
